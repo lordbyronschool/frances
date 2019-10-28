@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+@import url(validar.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: #78C800;
+    font-size: 50px;
+}
+
+.contenedor{
+    widows: 98%;
+    margin: auto;
+    
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#info{
+    background: #FFFFFF;
+    color: #3C3C3C;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* HIDE RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  border: 3px solid #78C800;
+}
+
+.alter{
+     
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+ img{
+     margin: 20px;
+    
+    border-radius: 10%;
+    border: 3px solid #E5E5E5;
+}
+
+img:hover{
+    border: 3px solid #1CB0F6;
+    
+   
+    
+}
+
+button{
+    
+    background-color: #F7A81E;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #78C800;
+}
+
+
+@media(min-width:480px){
+    .info{
+        width: 40%;
+    }
+}
+
+@media(min-width:1024px){
+    .info{
+        width: auto;
+    }
+    
+}

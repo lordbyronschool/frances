@@ -1,0 +1,19 @@
+.error{
+    background: #FFC1C1;
+}
+.error h1{
+    color: #FF5252 ;
+}
+.error button{
+    background-color: #FF5252;
+}
+
+.next{
+    background: #B8F28B;
+}
+.next h1{
+    color: #8DBC01;
+}
+.next button{
+    background-color: #8DBC01;
+}
