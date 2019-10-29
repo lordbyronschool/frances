@@ -30,7 +30,7 @@ $(document).ready(function(){
      });
 	
 	$("#volver").click(function(){
-     var url = "../../transport/transport.html"; 
+     var url = "../transport/transport.html"; 
      $(location).attr('href',url);
      });
 
