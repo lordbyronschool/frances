@@ -79,6 +79,12 @@ section{
     border: 3px solid #E5E5E5;
 }
 
+#rie{
+     margin: 0px;
+     border-radius: 0%;
+    border: 0px ;
+}
+
 img:hover{
     border: 3px solid #1CB0F6;
     
